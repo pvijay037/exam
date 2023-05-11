@@ -2,7 +2,7 @@
 
 This API documentation provides an overview of the Nudge API, including the supported requests, base URL, API endpoints, payload structure, and descriptions of each endpoint's functionality.
 
-# DJANGO REST FRAMEWORK
+## DJANGO REST FRAMEWORK
 [Django REST framework](http://www.django-rest-framework.org/) is a powerful and flexible toolkit for building Web APIs.
 
 ## Requirements
