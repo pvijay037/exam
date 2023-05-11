@@ -1,0 +1,235 @@
+{
+	"info": {
+		"_postman_id": "9b138435-4b55-40e1-85c3-b17265ff3947",
+		"name": "assignment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "event get",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "event post",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "demo",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/nagar/Desktop/download (2).jpg"
+						},
+						{
+							"key": "tagline",
+							"value": "demo",
+							"type": "text"
+						},
+						{
+							"key": "schedule",
+							"value": "2023-05-11T16:31:00Z",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "hi demo",
+							"type": "text"
+						},
+						{
+							"key": "moderator",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "watching",
+							"type": "text"
+						},
+						{
+							"key": "sub_category",
+							"value": "ok google",
+							"type": "text"
+						},
+						{
+							"key": "rigor_rank",
+							"value": "20",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "default",
+							"disabled": true
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/v3/app/events/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v3",
+						"app",
+						"events",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "event put",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "demo2.0",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/nagar/Desktop/download (2).jpg"
+						},
+						{
+							"key": "tagline",
+							"value": "demo",
+							"type": "text"
+						},
+						{
+							"key": "schedule",
+							"value": "2023-05-11T16:31:00Z",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "hi demo",
+							"type": "text"
+						},
+						{
+							"key": "moderator",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "category",
+							"value": "watching",
+							"type": "text"
+						},
+						{
+							"key": "sub_category",
+							"value": "ok google",
+							"type": "text"
+						},
+						{
+							"key": "rigor_rank",
+							"value": "20",
+							"type": "text"
+						},
+						{
+							"key": "",
+							"value": "",
+							"type": "default",
+							"disabled": true
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/v3/app/events/1/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v3",
+						"app",
+						"events",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "event del",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "image",
+							"type": "file",
+							"src": [],
+							"disabled": true
+						}
+					],
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/v3/app/events/1/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v3",
+						"app",
+						"events",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
