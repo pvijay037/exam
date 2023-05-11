@@ -122,12 +122,12 @@ The Nudge object represents a user-created nudge for an event. Here is the data 
   }]
   ```
 
-  # CURD operations
+# CURD operations
 
-  - `create`:used to create a data
-  - `update`:updating the previous stored data
-  - `read`: used to read the stored data
-  - `delete`: delete the stored data
+- `create`:used to create a data
+- `update`:updating the previous stored data
+- `read`: used to read the stored data
+- `delete`: delete the stored data
   
 ## Structure
 In a RESTful API, endpoints (URLs) define the structure of the API and how end users access data from our application using the HTTP methods - GET, POST, PUT, DELETE. Endpoints should be logically organized around _collections_ and _elements_, both of which are resources.
@@ -136,11 +136,11 @@ In our case, we have one single resource, `nudges`, so we will use the following
 
 Endpoint |HTTP Method | CRUD Method | Result
 -- | -- |-- |--
-`nudges` | GET | READ | Get all movies
-`nudges/:id` | GET | READ | Get a single movie
-`nudges`| POST | CREATE | Create a new movie
-`nudges/:id` | PUT | UPDATE | Update a movie
-`nudges/:id` | DELETE | DELETE | Delete a movie
+`nudges` | GET | READ | Get all nudges
+`nudges/:id` | GET | READ | Get a single nudges
+`nudges`| POST | CREATE | Create a new nudges
+`nudges/:id` | PUT | UPDATE | Update a nudges
+`nudges/:id` | DELETE | DELETE | Delete a nudges
 
 
      
